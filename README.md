@@ -1,7 +1,7 @@
 # School District Analysis
 This report goes into details about Thomas High School specifically about some discrepancies when it comes to _reading and math grades_.
 
-## Overview of Election audit
+## Overview
 The purpose of this report is-
 * Replacing ninth-grade reading and math scores
 * Generating a new **School District Analysis report** using the new corrected dataset
