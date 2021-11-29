@@ -64,5 +64,5 @@ In conclusion, the new **School District Analysis** is more accurate and trustwo
 * The 9th grade marks for Thomas High school remains blank and should be updated as soon as possible. 
 
 ## Links
-  * Visit this [link](https://github.com/tanzimamin2/Election_Analysis) for the Python script and other resources.
+  * Visit this [link](https://github.com/tanzimamin2/School_District_Analysis) for the Python script and other resources.
    
