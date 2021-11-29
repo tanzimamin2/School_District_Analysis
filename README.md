@@ -6,59 +6,63 @@ The purpose of this report is-
 * Replacing ninth-grade reading and math scores
 * Generating a new **School District Analysis report** using the new corrected dataset
 
-### Purpose
-The main purpose of this report is to analyze the election data and answer the questions mentioned above. This will help the Election Board to determine the winner as well as gathering important statistics about the election.
-
-## Election-Audit Results
+## Results and findings
 Lets take a closer look at the results:-
-* _How many votes were cast in this congressional election?_
+* _How is the district summary affected?_
 
-![image](https://user-images.githubusercontent.com/93144225/142713458-19c89e27-e652-4709-9dbd-af8ef0dfacab.png)
+    As the image shows, all the 9th grade math and reading scored have been removed. As a result the statistics and rankings are more accurate and trustworthy.
 
-* _Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct._
+![image](https://user-images.githubusercontent.com/93144225/143802331-9dca743f-2d9a-41ae-9d28-e92772e1499a.png)
 
-![image](https://user-images.githubusercontent.com/93144225/142713492-21483446-fac2-40d5-bec7-79a735176825.png)
+* _How is the school summary affected?_
 
-* _Which county had the largest number of votes?_
+    The percentages for **Passing Math, Passing Reading and Overall Passing** have been updated to reflect the corrected dataset.
 
-![image](https://user-images.githubusercontent.com/93144225/142713509-b3d57aa3-fc1f-471b-98c9-df6e8449ff93.png)
+![image](https://user-images.githubusercontent.com/93144225/143802823-3e561fce-7577-4075-9bc8-abfaa09d23b4.png)
 
-* _Provide a breakdown of the number of votes and the percentage of the total votes each candidate received._
 
-![image](https://user-images.githubusercontent.com/93144225/142713538-2c991d01-cad4-4da0-9b6b-2a3369d0ee63.png)
+* _How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?_
 
-* _Which candidate won the election, what was their vote count, and what was their percentage of the total votes?_
+    The corrected dataset shows Thomas high school in a much better light when it comes to performance. As the image shows how the passing percentage has drastically increased.
+    
+![image](https://user-images.githubusercontent.com/93144225/143803376-e5b8c8a1-f437-4dff-84b3-997b66cba917.png)
 
-![image](https://user-images.githubusercontent.com/93144225/142713555-fe11722f-11b9-42f6-9fdc-d5638bf113d4.png)
+* _How does replacing the ninth-grade scores affect the following:-_
 
-## Election-Audit Summary
-In conclusion, using our Python script is a very easy and efficient way to analyze large datasets and extract the required information.
+    * _**Math and reading scores by grade**_
+    
+        The 9th grade marks have been replaced by nan
+    
+        ![image](https://user-images.githubusercontent.com/93144225/143803936-b5156f70-d9b8-48a5-8343-6debf5d97ab0.png)
+  
+        ![image](https://user-images.githubusercontent.com/93144225/143804137-097a5e9f-9c40-44c9-89be-a083f0d87b65.png)
 
-Manually counting ballots is time consuming as well as labour intensive and there is always a chance for human error. Whereas our Python script can do the same job in a very convinient, accurate and fast manner. This inturn will save money for the Election Board.
+    * _**Scores by school spending**_
 
-With little modifications our script can be used for any elections. Here are two examples:-
-* Python is a versatile language and can extract data from numerous file types other then CSV. Modify this line to change the file type. As a result, we can use other types of datasets for any other elections. 
+        The school spending scores are not effected, as the math and reading grades are not financial data.
 
-```
-# Add our dependencies.
-import csv
-```
+        ![image](https://user-images.githubusercontent.com/93144225/143804393-1f4d980b-3af5-4e7f-9333-5b6aa136c2ba.png)
 
-```
-# Read the csv and convert it into a list of dictionaries
-with open(file_to_load) as election_data:
-    reader = csv.reader(election_data)
-```
+    * _**Scores by school size**_
 
-* Our script can easily pull data from any directories of the PC and can output the desired results in any output folders. Modify the following line to change the input dataset and output folders.
+        There was a change in the percentages for **Passing Math, Passing Reading and Overall Passing.** As this table derived its data from the updated scores.
 
-```
-# Add a variable to load a file from a path.
-file_to_load = os.path.join("Resources", "election_results.csv")
-# Add a variable to save the file to a path.
-file_to_save = os.path.join("analysis", "election_results.txt")
-```
+        ![image](https://user-images.githubusercontent.com/93144225/143805168-e9a7cf72-24a3-46aa-9c5d-3ceb90c8a60a.png)
+        
+     * _**Scores by school type**_
 
-* _**Links**_
+        There was once again a change in the percentages for **Passing Math, Passing Reading and Overall Passing.** As this table derived its data from the updated scores.
+     
+        ![image](https://user-images.githubusercontent.com/93144225/143805525-08650242-f0dc-4dcd-ab44-64aeedf1fe27.png)
+
+## Summary
+In conclusion, the new **School District Analysis** is more accurate and trustworthy. Here are four changes that was observed:-
+
+* Thomas High school recieved a much better ranking score among the other schools.
+* A lot of the previous Math, Reading and overall pass percentages have been updated.
+* School spending data remains the same as it has nothing to do with the student scores.
+* The 9th grade marks for Thomas High school remains blank and should be updated as soon as possible. 
+
+## Links
   * Visit this [link](https://github.com/tanzimamin2/Election_Analysis) for the Python script and other resources.
    
