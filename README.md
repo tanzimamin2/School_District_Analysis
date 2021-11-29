@@ -56,7 +56,7 @@ Lets take a closer look at the results:-
         ![image](https://user-images.githubusercontent.com/93144225/143805525-08650242-f0dc-4dcd-ab44-64aeedf1fe27.png)
 
 ## Summary
-In conclusion, the new **School District Analysis** is more accurate and trustworthy. Here are four changes that was observed:-
+In conclusion, the new **School District Analysis** is more accurate and trustworthy. Here are four changes that were observed:-
 
 * Thomas High school recieved a much better ranking score among the other schools.
 * A lot of the previous Math, Reading and overall pass percentages have been updated.
